@@ -1,0 +1,42 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bill split Application</h1>
+        <hr />
+        <span>
+            <h2>Bill Total:</h2>
+            <input type="text" id="billAmount"/>
+        </span>
+        <br /><br />
+        <span>
+            <h2>People count:</h2>
+            <input type="text" id="personCount"/>
+        </span>
+        <br /><br />
+        <span>
+            <h2>Amount to be paid:</h2>
+            <input type="text" id="finalBillAmount"/>
+        </span>
+        <br /><br />
+        <div class="taxContainer">
+            <p>CGST:9%</p>
+            <P>GST:9%</P>
+        </div>
+        <div id="checkboxContainer">
+            <input type="checkbox" id="checkbox"/>
+            <p>save 5%</p>
+        </div>
+
+        <button onclick="billsplit()">Split Bill</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
